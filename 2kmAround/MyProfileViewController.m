@@ -150,6 +150,8 @@
                         
                         
                         ucell.myIMV.image=resizedImage;
+                      
+                        
                     }
                 }];
                 

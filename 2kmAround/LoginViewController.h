@@ -15,4 +15,5 @@
 @property(nonatomic,strong)UIButton *getPWDButton;
 
 @property(nonatomic,strong)UIButton *backButton;
+
 @end
