@@ -31,7 +31,8 @@
     
     //通通讯录
     
-    FriendsViewController *friendVC = [[FriendsViewController alloc]init];
+    //FriendsViewController *friendVC = [[FriendsViewController alloc]init];
+    MyFriendListViewController *friendVC=[[MyFriendListViewController alloc]init];
     UINavigationController * friendVCNC = [[UINavigationController alloc] initWithRootViewController:friendVC];
     
     friendVCNC.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"朋友" image:[UIImage imageNamed:@"friends1.png"] tag:101];

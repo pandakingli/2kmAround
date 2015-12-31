@@ -7,15 +7,8 @@ typedef void (^myBlock)(BOOL succeeded, NSError *error);
 @class AVIMClient;
 
 @interface UserHandle : NSObject
-{
-    
-//    @public
-//    @private
-//    @protected
-//    @package
 
-
-}
+@property(nonatomic,assign)NSInteger newFriend;
 @property(nonatomic,assign)BOOL sendWelcomMessage;//是否发送欢迎信息
 @property(nonatomic,assign)NSInteger unreadAddRequestCount;//未读好友请求数目
 @property(nonatomic,assign)NSInteger newFriendCount;//新好友数目

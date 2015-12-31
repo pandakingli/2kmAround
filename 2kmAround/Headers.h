@@ -52,9 +52,29 @@
 
 #import "ChangePWDViewController.h"
 
+#import "MyFriendListViewController.h"
+
+#import "FriendTableViewCell.h"
+
+#import "myConversations.h"
+#import "Message.h"
+
+#import "AVUserStore.h"
+
+#import "AVUser+Avatar.h"
 
 
+#import "SearchFriendViewController.h"
 
+#import "AddNewFriendViewController.h"
+
+
+#import "NewAddRequestFriendsListViewController.h"
+
+#import "NewRequestTableViewCell.h"
+
+
+#import "ChatTableViewCell.h"
 
 
 

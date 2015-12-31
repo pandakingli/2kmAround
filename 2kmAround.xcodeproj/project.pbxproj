@@ -8,6 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		C1DAF531461ACA364618D2F5 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AF2C6B20656105230184D51 /* Pods.framework */; };
+		E60C8A9F1C34DE8300873BD0 /* MyFriendListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E60C8A9E1C34DE8300873BD0 /* MyFriendListViewController.m */; settings = {ASSET_TAGS = (); }; };
+		E60C8AA21C34DFB900873BD0 /* FriendTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E60C8AA11C34DFB900873BD0 /* FriendTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		E60C8AA51C34EBC500873BD0 /* myConversations.m in Sources */ = {isa = PBXBuildFile; fileRef = E60C8AA41C34EBC500873BD0 /* myConversations.m */; settings = {ASSET_TAGS = (); }; };
+		E60C8AA81C34ED2E00873BD0 /* Message.m in Sources */ = {isa = PBXBuildFile; fileRef = E60C8AA71C34ED2E00873BD0 /* Message.m */; settings = {ASSET_TAGS = (); }; };
+		E60C8AAB1C34ED5100873BD0 /* AVUserStore.m in Sources */ = {isa = PBXBuildFile; fileRef = E60C8AAA1C34ED5100873BD0 /* AVUserStore.m */; settings = {ASSET_TAGS = (); }; };
+		E60C8AAE1C34ED7000873BD0 /* UserProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = E60C8AAD1C34ED7000873BD0 /* UserProfile.m */; settings = {ASSET_TAGS = (); }; };
+		E60C8AB11C34ED9100873BD0 /* Constrains.m in Sources */ = {isa = PBXBuildFile; fileRef = E60C8AB01C34ED9100873BD0 /* Constrains.m */; settings = {ASSET_TAGS = (); }; };
+		E60C8AB41C34EDF300873BD0 /* AVUser+Avatar.m in Sources */ = {isa = PBXBuildFile; fileRef = E60C8AB31C34EDF300873BD0 /* AVUser+Avatar.m */; settings = {ASSET_TAGS = (); }; };
+		E60C8AB71C34F11D00873BD0 /* SearchFriendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E60C8AB61C34F11D00873BD0 /* SearchFriendViewController.m */; settings = {ASSET_TAGS = (); }; };
+		E60C8ABA1C34F15F00873BD0 /* AddNewFriendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E60C8AB91C34F15F00873BD0 /* AddNewFriendViewController.m */; settings = {ASSET_TAGS = (); }; };
+		E60C8ABD1C34F36B00873BD0 /* NewAddRequestFriendsListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E60C8ABC1C34F36B00873BD0 /* NewAddRequestFriendsListViewController.m */; settings = {ASSET_TAGS = (); }; };
+		E60C8AC01C34F37600873BD0 /* NewRequestTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E60C8ABF1C34F37600873BD0 /* NewRequestTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		E60C8AC31C34FDFC00873BD0 /* ChatTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E60C8AC21C34FDFC00873BD0 /* ChatTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		E60C8AC61C34FED200873BD0 /* newmyfriend.png in Resources */ = {isa = PBXBuildFile; fileRef = E60C8AC51C34FED200873BD0 /* newmyfriend.png */; settings = {ASSET_TAGS = (); }; };
 		E67C3F851C30F98A00060D70 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E67C3F821C30F98A00060D70 /* LoginViewController.m */; settings = {ASSET_TAGS = (); }; };
 		E67C3F861C30F98A00060D70 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E67C3F841C30F98A00060D70 /* RegisterViewController.m */; settings = {ASSET_TAGS = (); }; };
 		E67C3F891C31042600060D70 /* UIImage+Icon.m in Sources */ = {isa = PBXBuildFile; fileRef = E67C3F881C31042600060D70 /* UIImage+Icon.m */; settings = {ASSET_TAGS = (); }; };
@@ -43,6 +57,33 @@
 /* Begin PBXFileReference section */
 		9AF2C6B20656105230184D51 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0373B2B645687C30988144A /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		E60C8A9D1C34DE8300873BD0 /* MyFriendListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyFriendListViewController.h; sourceTree = "<group>"; };
+		E60C8A9E1C34DE8300873BD0 /* MyFriendListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyFriendListViewController.m; sourceTree = "<group>"; };
+		E60C8AA01C34DFB900873BD0 /* FriendTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendTableViewCell.h; sourceTree = "<group>"; };
+		E60C8AA11C34DFB900873BD0 /* FriendTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendTableViewCell.m; sourceTree = "<group>"; };
+		E60C8AA31C34EBC500873BD0 /* myConversations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = myConversations.h; sourceTree = "<group>"; };
+		E60C8AA41C34EBC500873BD0 /* myConversations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = myConversations.m; sourceTree = "<group>"; };
+		E60C8AA61C34ED2E00873BD0 /* Message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Message.h; sourceTree = "<group>"; };
+		E60C8AA71C34ED2E00873BD0 /* Message.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Message.m; sourceTree = "<group>"; };
+		E60C8AA91C34ED5100873BD0 /* AVUserStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVUserStore.h; sourceTree = "<group>"; };
+		E60C8AAA1C34ED5100873BD0 /* AVUserStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVUserStore.m; sourceTree = "<group>"; };
+		E60C8AAC1C34ED7000873BD0 /* UserProfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserProfile.h; sourceTree = "<group>"; };
+		E60C8AAD1C34ED7000873BD0 /* UserProfile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserProfile.m; sourceTree = "<group>"; };
+		E60C8AAF1C34ED9100873BD0 /* Constrains.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constrains.h; sourceTree = "<group>"; };
+		E60C8AB01C34ED9100873BD0 /* Constrains.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constrains.m; sourceTree = "<group>"; };
+		E60C8AB21C34EDF300873BD0 /* AVUser+Avatar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AVUser+Avatar.h"; sourceTree = "<group>"; };
+		E60C8AB31C34EDF300873BD0 /* AVUser+Avatar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AVUser+Avatar.m"; sourceTree = "<group>"; };
+		E60C8AB51C34F11D00873BD0 /* SearchFriendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchFriendViewController.h; sourceTree = "<group>"; };
+		E60C8AB61C34F11D00873BD0 /* SearchFriendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchFriendViewController.m; sourceTree = "<group>"; };
+		E60C8AB81C34F15F00873BD0 /* AddNewFriendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddNewFriendViewController.h; sourceTree = "<group>"; };
+		E60C8AB91C34F15F00873BD0 /* AddNewFriendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddNewFriendViewController.m; sourceTree = "<group>"; };
+		E60C8ABB1C34F36B00873BD0 /* NewAddRequestFriendsListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewAddRequestFriendsListViewController.h; sourceTree = "<group>"; };
+		E60C8ABC1C34F36B00873BD0 /* NewAddRequestFriendsListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewAddRequestFriendsListViewController.m; sourceTree = "<group>"; };
+		E60C8ABE1C34F37600873BD0 /* NewRequestTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewRequestTableViewCell.h; sourceTree = "<group>"; };
+		E60C8ABF1C34F37600873BD0 /* NewRequestTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewRequestTableViewCell.m; sourceTree = "<group>"; };
+		E60C8AC11C34FDFC00873BD0 /* ChatTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatTableViewCell.h; sourceTree = "<group>"; };
+		E60C8AC21C34FDFC00873BD0 /* ChatTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatTableViewCell.m; sourceTree = "<group>"; };
+		E60C8AC51C34FED200873BD0 /* newmyfriend.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = newmyfriend.png; sourceTree = "<group>"; };
 		E67C3F811C30F98A00060D70 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		E67C3F821C30F98A00060D70 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		E67C3F831C30F98A00060D70 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
@@ -132,6 +173,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		E60C8AC41C34FEA700873BD0 /* Friends */ = {
+			isa = PBXGroup;
+			children = (
+				E60C8AC51C34FED200873BD0 /* newmyfriend.png */,
+			);
+			name = Friends;
+			sourceTree = "<group>";
+		};
 		E67E2C631C2B92E20017AD9B = {
 			isa = PBXGroup;
 			children = (
@@ -215,6 +264,7 @@
 		E67E2C861C2B9BB70017AD9B /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				E60C8AC41C34FEA700873BD0 /* Friends */,
 				E67E2C871C2B9BC90017AD9B /* TabBar */,
 			);
 			name = Images;
@@ -321,6 +371,18 @@
 		E6CA24D31C2B9CE700BF3B5F /* M */ = {
 			isa = PBXGroup;
 			children = (
+				E60C8AB21C34EDF300873BD0 /* AVUser+Avatar.h */,
+				E60C8AB31C34EDF300873BD0 /* AVUser+Avatar.m */,
+				E60C8AAF1C34ED9100873BD0 /* Constrains.h */,
+				E60C8AB01C34ED9100873BD0 /* Constrains.m */,
+				E60C8AAC1C34ED7000873BD0 /* UserProfile.h */,
+				E60C8AAD1C34ED7000873BD0 /* UserProfile.m */,
+				E60C8AA91C34ED5100873BD0 /* AVUserStore.h */,
+				E60C8AAA1C34ED5100873BD0 /* AVUserStore.m */,
+				E60C8AA61C34ED2E00873BD0 /* Message.h */,
+				E60C8AA71C34ED2E00873BD0 /* Message.m */,
+				E60C8AA31C34EBC500873BD0 /* myConversations.h */,
+				E60C8AA41C34EBC500873BD0 /* myConversations.m */,
 			);
 			name = M;
 			sourceTree = "<group>";
@@ -328,6 +390,12 @@
 		E6CA24D41C2B9CEB00BF3B5F /* V */ = {
 			isa = PBXGroup;
 			children = (
+				E60C8AC11C34FDFC00873BD0 /* ChatTableViewCell.h */,
+				E60C8AC21C34FDFC00873BD0 /* ChatTableViewCell.m */,
+				E60C8AA01C34DFB900873BD0 /* FriendTableViewCell.h */,
+				E60C8AA11C34DFB900873BD0 /* FriendTableViewCell.m */,
+				E60C8ABE1C34F37600873BD0 /* NewRequestTableViewCell.h */,
+				E60C8ABF1C34F37600873BD0 /* NewRequestTableViewCell.m */,
 			);
 			name = V;
 			sourceTree = "<group>";
@@ -335,6 +403,14 @@
 		E6CA24D51C2B9CEF00BF3B5F /* C */ = {
 			isa = PBXGroup;
 			children = (
+				E60C8ABB1C34F36B00873BD0 /* NewAddRequestFriendsListViewController.h */,
+				E60C8ABC1C34F36B00873BD0 /* NewAddRequestFriendsListViewController.m */,
+				E60C8AB81C34F15F00873BD0 /* AddNewFriendViewController.h */,
+				E60C8AB91C34F15F00873BD0 /* AddNewFriendViewController.m */,
+				E60C8AB51C34F11D00873BD0 /* SearchFriendViewController.h */,
+				E60C8AB61C34F11D00873BD0 /* SearchFriendViewController.m */,
+				E60C8A9D1C34DE8300873BD0 /* MyFriendListViewController.h */,
+				E60C8A9E1C34DE8300873BD0 /* MyFriendListViewController.m */,
 				E6CA24DF1C2B9DAB00BF3B5F /* FriendsViewController.h */,
 				E6CA24E01C2B9DAB00BF3B5F /* FriendsViewController.m */,
 			);
@@ -430,6 +506,7 @@
 				E67E2C901C2B9BDD0017AD9B /* circle1.png in Resources */,
 				E67E2C961C2B9BDD0017AD9B /* circle2.png in Resources */,
 				E67E2C931C2B9BDD0017AD9B /* friends1.png in Resources */,
+				E60C8AC61C34FED200873BD0 /* newmyfriend.png in Resources */,
 				E67E2C941C2B9BDD0017AD9B /* friends2.png in Resources */,
 				E67E2C911C2B9BDD0017AD9B /* chat1.png in Resources */,
 				E67E2C781C2B92E20017AD9B /* Assets.xcassets in Resources */,
@@ -494,21 +571,34 @@
 			buildActionMask = 2147483647;
 			files = (
 				E6CA24DE1C2B9D9C00BF3B5F /* MapAndCircleViewController.m in Sources */,
+				E60C8AA21C34DFB900873BD0 /* FriendTableViewCell.m in Sources */,
 				E67C3F951C310C4500060D70 /* ChangePWDViewController.m in Sources */,
+				E60C8ABA1C34F15F00873BD0 /* AddNewFriendViewController.m in Sources */,
 				E6CA24E11C2B9DAB00BF3B5F /* FriendsViewController.m in Sources */,
+				E60C8AC31C34FDFC00873BD0 /* ChatTableViewCell.m in Sources */,
+				E60C8AAE1C34ED7000873BD0 /* UserProfile.m in Sources */,
 				E6CA24EB1C2BEC4A00BF3B5F /* UserHandle.m in Sources */,
 				E67C3F8F1C310BDE00060D70 /* LostPWDViewController.m in Sources */,
 				E67E2C9C1C2B9C4C0017AD9B /* RootTabBarController.m in Sources */,
+				E60C8A9F1C34DE8300873BD0 /* MyFriendListViewController.m in Sources */,
 				E67C3F9A1C31116900060D70 /* MCPhotographyHelper.m in Sources */,
+				E60C8AB41C34EDF300873BD0 /* AVUser+Avatar.m in Sources */,
+				E60C8AAB1C34ED5100873BD0 /* AVUserStore.m in Sources */,
 				E6CA24DB1C2B9D8A00BF3B5F /* MyProfileViewController.m in Sources */,
 				E67C3F861C30F98A00060D70 /* RegisterViewController.m in Sources */,
 				E67C3F851C30F98A00060D70 /* LoginViewController.m in Sources */,
 				E67C3F891C31042600060D70 /* UIImage+Icon.m in Sources */,
 				E67C3F8C1C3105A900060D70 /* UserTableViewCell.m in Sources */,
+				E60C8AC01C34F37600873BD0 /* NewRequestTableViewCell.m in Sources */,
 				E6CA24E41C2B9DB900BF3B5F /* RecentChatViewController.m in Sources */,
+				E60C8ABD1C34F36B00873BD0 /* NewAddRequestFriendsListViewController.m in Sources */,
+				E60C8AB71C34F11D00873BD0 /* SearchFriendViewController.m in Sources */,
 				E67E2C741C2B92E20017AD9B /* AppDelegate.m in Sources */,
+				E60C8AB11C34ED9100873BD0 /* Constrains.m in Sources */,
 				E67C3F9E1C3115C500060D70 /* ChangeUserNameViewController.m in Sources */,
+				E60C8AA81C34ED2E00873BD0 /* Message.m in Sources */,
 				E67E2C711C2B92E20017AD9B /* main.m in Sources */,
+				E60C8AA51C34EBC500873BD0 /* myConversations.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

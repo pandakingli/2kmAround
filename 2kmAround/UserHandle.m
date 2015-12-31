@@ -64,7 +64,7 @@ static UserHandle * myUser = nil;
 //查找好友
 - (void)findUsersByUserName:(NSString *)UserName withBlock:(AVArrayResultBlock)block {
     AVQuery *q = [AVUser query];
-    [q setCachePolicy:kAVCachePolicyNetworkElseCache];
+    //[q setCachePolicy:kAVCachePolicyNetworkElseCache];
     //[q whereKey:@"username" containsString:UserName];//包含某个字段
     [q whereKey:@"username" equalTo:UserName];//等于某个字段
     AVUser *curUser = [AVUser currentUser];
@@ -75,14 +75,16 @@ static UserHandle * myUser = nil;
 //检查是否已经申请过好友--正在等待对方确认
 - (void)haveWaitAddRequestWithToUser:(AVUser *)toUser callback:(AVBooleanResultBlock)callback {
     
-    /*
+    
     
     AVUser *user = [AVUser currentUser];
     //AVQuery *q = [CDAddRequest query];
     AVQuery *q = [AVQuery queryWithClassName:@"myAddRequest"];
     [q whereKey:kAddRequestFromUser equalTo:user];
     [q whereKey:kAddRequestToUser equalTo:toUser];
-    [q whereKey:kAddRequestStatus equalTo:@(CDAddRequestStatusWait)];
+    [q whereKey:kAddRequestStatus equalTo:@(0)];
+    //0等待
+    //1
     [q countObjectsInBackgroundWithBlock: ^(NSInteger number, NSError *error) {
         if (error) {
             if (error.code == kAVErrorObjectNotFound) {
@@ -102,7 +104,7 @@ static UserHandle * myUser = nil;
         }
     }];
      
-     */
+    
 }
 
 //发出申请添加好友申请
@@ -191,7 +193,7 @@ static UserHandle * myUser = nil;
                         [curUser unfollow:fromUser.objectId andCallback:^(BOOL succeeded, NSError *error) {
                             
                             NSString *s_objectId=[objects[i] valueForKey:@"objectId"];
-                            
+                       
                             //// 知道 objectId，创建 AVObject
                             AVObject *post=[AVObject objectWithoutDataWithClassName:@"myAddRequest" objectId:s_objectId];
                             
@@ -287,11 +289,11 @@ static UserHandle * myUser = nil;
 
 -(void)checkMyAddRequestsAndAddNewWithBlock:(AVArrayResultBlock)block {
     
-    /*
+    
     [self findOKAddRequestsWithBlock:^(NSArray *objects, NSError *error) {
        
-        self.unreadAddRequest=0;
-        self.newFriend=0;
+        self.unreadAddRequestCount=0;
+       self.newFriend=0;
         
         AVUser *curUser=[AVUser currentUser];
         if (objects.count>0) {
@@ -335,7 +337,7 @@ static UserHandle * myUser = nil;
                 
                 //别人发送给我的好友请求--未同意
                 if ([isRead  isEqualToString:@"0"]&&[toUser.objectId isEqualToString:curUser.objectId]&&[status isEqualToString:@"0"]) {
-                    self.unreadAddRequest++;
+                    self.unreadAddRequestCount++;
                 }
                 
                 
@@ -376,7 +378,7 @@ static UserHandle * myUser = nil;
     
     
     
-    */
+    
     
 }
 
